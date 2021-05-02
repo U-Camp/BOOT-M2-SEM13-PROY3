@@ -16,15 +16,15 @@
 
 ## 1. Intro
 
-Los sitios web estáticos han crecido en popularidad estos últimos años. 
+Uno de los beneficios que profesionales en desarrollo pueden dar a sus equipos es agilizar la `comunicación de datos`.
 
-Existen muchas aplicaciones como [Wix](https://wix.com) o [Squarespace](https://squarespace.com) que han aprovechado este crecimiento debido a la gran necesidad de empresas introduciéndose a Internet para presentar sus productos al mundo.
+Si en un trabajo o proyecto resulta se debe realizar una muestra
 
-Sin embargo, hay un segmento que necesita mucha personalización, ya sea porque más adelante incluirá un sistema de registro, un área para clientes, etc. 
+Es interesante la gran cantidad de 
 
-Es aquí donde es recomendable construirlo sin usar terceros. 
 
-Comenzamos a trabajar con tu primer proyecto, una página web estática.
+En este proyecto, trabajaremos con una librería de gráficas muy popular. Adicionalmente, haremos una conexión a través de un API a una base de datos controlado por un tercero pero que nos permite obtener datos para manipularlos desde nuestro lado.
+
 
 ****
 
