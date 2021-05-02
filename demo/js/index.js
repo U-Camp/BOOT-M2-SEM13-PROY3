@@ -2,6 +2,8 @@ const currencyDate = document.getElementById("currency-date")
 const btnDate = document.getElementById("btn-date")
 var ctx = document.getElementById('myChart').getContext('2d');
 
+
+
 const state = {
     label: "hola",
     rates: "",
@@ -18,7 +20,7 @@ function fetchData(date){
     }
 
     const key = "30def6fe443530fb27395a0e260193cf"
-    return fetch(`http://data.fixer.io/api/${dateToLookFor}?access_key=${key}&base=EUR&symbols=USD,GBP,MXN,CAD,ERN,BYN,CUP`).then((res) => {
+    return fetch(`https://data.fixer.io/api/${dateToLookFor}?access_key=${key}&base=EUR&symbols=USD,GBP,MXN,CAD,ERN,BYN,CUP`).then((res) => {
         return res.json()
     }).then(data => {
         state.rates = data.rates
