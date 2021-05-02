@@ -99,9 +99,3 @@ const init = async () => {
 }
 
 init()
-
-btnDate.addEventListener("click", () => {
-    console.log("click:", "hola")
-    update()
-    myChart.update()
-})
