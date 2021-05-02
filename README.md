@@ -109,7 +109,7 @@ A partir de los requisitos, tu % estará definido de esta forma:
 | ------------- |:-------------:|
 | UI      | 30%     |
 | JAVASCRIPT      | 60%     |
-| DEPLOY | 10%      |
+| DESPLIEGUE | 10%      |
 
 ****
 
