@@ -16,13 +16,15 @@
 
 ## 1. Intro
 
-Uno de los beneficios que profesionales en desarrollo pueden dar a sus equipos es la `comunicación de datos`.
+Uno de los beneficios que profesionales en desarrollo pueden dar a sus equipos es la **comunicación de datos**.
 
-El desarrollo de tableros es una constante en el mundo de proyectos de software. Es por ello, que están apareciendo los "dashboards" a través de servicios como Google Studio que te permiten integrar datos de manera efectiva.
+El desarrollo de tableros es una constante en los proyectos de software. 
+
+Incluso, han aparecido "dashboards" fáciles de gestionar a través de servicios como `Google Studio` que te permiten integrar datos de manera efectiva.
 
 ![](./imagenes/ex0.png)
 
-Por ello, aprender a integrarlo en nuestras aplicaciones, ya sea para un usuario, un equipo o un "stakeholder", es un ejercicio sólido para practicar nuestras habilidades.
+Por ello, aprender a integrar datos en nuestras aplicaciones, ya sea para un usuario, un equipo o un "stakeholder", y comunicarlas correctamente, es un ejercicio sólido para practicar habilidades de programación.
 
 En este proyecto, trabajaremos con una librería de gráficas muy popular, llamada `Chart.js`. 
 
