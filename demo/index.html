@@ -14,12 +14,13 @@
         <div class="flex flex-col h-0 flex-1">
           <div class="flex-1 flex flex-col pt-5 pb-4 overflow-y-auto">
             <div class="flex items-center flex-shrink-0 px-4">
-              <img class="h-8 w-auto" src="./img/ucamp.png" alt="UCamp">
+              <img class="h-10 w-auto" src="./img/logo-ucamp-dark.png" alt="UCamp">
+              <p class="text-white" style="font-size: 16px;margin: 0px 25px;text-align: left;">Proyecto No.3: Tablero de Datos</p>
             </div>
-            <nav class="mt-5 flex-1 px-2 space-y-1">
-              <a href="#" class="bg-indigo-800 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+            <nav class="mt-5 flex-1 px-4 space-y-1">
+              <a href="#" class="text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md" style="background-color: #ff5aa5 !important;">
                 <!-- Heroicon name: outline/home -->
-                <svg class="mr-3 h-6 w-6 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <svg class="mr-3 h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 Estadísticas
@@ -41,6 +42,16 @@
         </button>
       </div>
       <main class="flex-1 relative z-0 overflow-y-auto focus:outline-none">
+        <div class="relative bg-indigo-800">
+          <div class="absolute inset-0">
+            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZmluYW5jZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+            <div class="absolute inset-0 bg-indigo-800" style="mix-blend-mode: multiply;" aria-hidden="true"></div>
+          </div>
+          <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Comportamiento de divisas: Euro</h1>
+            <p class="mt-6 text-xl text-indigo-100 max-w-3xl">Base de datos usada para extraer datos: <u><a href="https://www.openbankingeurope.eu/">Open Banking Europe</a></u></p>
+          </div>
+        </div>
         <div class="py-6">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
             <h1 class="text-2xl font-semibold text-gray-900">Euro</h1>
@@ -54,7 +65,6 @@
                 <input id="currency-date" type="date" />
                 <button id="btn-date">Ver fecha</button> -->
               </div>
-              
               <br />
                 <canvas id="myChart" width="400" height="150"></canvas>
             </div>
