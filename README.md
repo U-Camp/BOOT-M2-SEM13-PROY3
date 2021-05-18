@@ -109,9 +109,9 @@ A partir de los requisitos, tu % estará definido de esta forma:
 
 | ÁREA       | % DEL TOTAL |
 | ------------- |:-------------:|
-| UI      | 30%     |
+| UI      | 25%     |
 | JAVASCRIPT      | 60%     |
-| DESPLIEGUE | 10%      |
+| DESPLIEGUE | 15%      |
 
 ****
 
