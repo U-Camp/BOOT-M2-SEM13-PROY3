@@ -76,11 +76,9 @@ Estos son las características a considerar:
 
 ## 5. Requisitos y entregables
 
-Usa esta lista para saber los requisitos mínimos del proyecto:
+Como principal requisito, este deberá realizarse en parejas (por motivos específicos, podría trabajarse individualmente).
 
-### GENERAL
-
-- [ ] Realizarse en parejas (por motivos específicos, podría trabajarse individualmente).
+A continuación, usarás esta lista para saber los requisitos mínimos del proyecto:
 
 ### UI
 - [ ] Aplicar HTML5
@@ -95,11 +93,13 @@ Usa esta lista para saber los requisitos mínimos del proyecto:
 
 ### CONTROL DE VERSIONES
 - [ ] Crear un repositorio en GitHub
+- [ ] Crear un README.md dentro del repositorio. Incluir la descripción, instalación y uso del proyecto
 - [ ] Realizar "commits" en tu repositorio, mínimo 5 por persona
+
 
 ### DESPLIEGUE
 - [ ] Crear una URL para compartir (puedes utilizar Netlify o GitHub Pages)
-- [ ] Colocar descripción dentro del repositorio
+- [ ] Colocar descripción dentro del repositorio e incluir URL
 
 ****
 
@@ -110,8 +110,10 @@ A partir de los requisitos, tu % estará definido de esta forma:
 | ÁREA       | % DEL TOTAL |
 | ------------- |:-------------:|
 | UI      | 25%     |
-| JAVASCRIPT      | 60%     |
-| DESPLIEGUE | 15%      |
+| JAVASCRIPT      | 45%     |
+| CONTROL DE VERSIONES | 10%      |
+| DESPLIEGUE | 5%      |
+| ENTREGA A TIEMPO | 15%      |
 
 ****
 
@@ -119,4 +121,9 @@ A partir de los requisitos, tu % estará definido de esta forma:
 
 - **Definición de fechas.** Habla con tus coaches sobre el periodo de entregas del proyecto.
 
-- **Cumple con los requisitos y entregables.** En caso de que no logres cumplir con todos, se te asignará un progreso proporcional a lo que lograste. Lo importante es que entregues siempre tu proyecto.
+- **Cumple con los requisitos y entregables.** En caso de que no logres cumplir con todos los requisitos, el % que obtendrás responderá a los criterios de evoluación. Es importante que entregues tu proyecto a tiempo. 
+
+
+
+
+
