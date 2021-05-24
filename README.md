@@ -81,25 +81,27 @@ Como principal requisito, este deberá realizarse en parejas (por motivos espec�
 A continuación, usarás esta lista para saber los requisitos mínimos del proyecto:
 
 ### UI
-- [ ] Aplicar HTML5
+- [ ] Aplicar HTML5.
 - [ ] Aplicar selectores en CSS.
-- [ ] Sección de gráficos (`Chart.js` utiliza `canvas`)
+- [ ] Sección de gráficos (`Chart.js` utiliza `canvas`).
 
 ### JAVASCRIPT
 
-- [ ] Uso de `fetch` o `axios` para el consumo de datos
-- [ ] Modularización con `import` y `export`
-- [ ] Uso de promesas o `async-await`
+- [ ] Uso de `fetch` o `axios` para el consumo de datos.
+- [ ] Modularización con `import` y `export`.
+- [ ] Uso de promesas o `async-await`.
 
 ### CONTROL DE VERSIONES
-- [ ] Crear un repositorio en GitHub
-- [ ] Crear un README.md dentro del repositorio. Incluir la descripción, instalación y uso del proyecto
-- [ ] Realizar "commits" en tu repositorio, mínimo 5 por persona
+- [ ] Crear un repositorio en GitHub y Realizar mínimo 5 "commits" por persona en tu repositorio. 
+- [ ] Crear un README.md dentro del repositorio. Incluir la descripción, instalación y uso del proyecto.
 
 
 ### DESPLIEGUE
-- [ ] Crear una URL para compartir (puedes utilizar Netlify o GitHub Pages)
-- [ ] Colocar descripción dentro del repositorio e incluir URL
+- [ ] Crear una URL para compartir (puedes utilizar Netlify o GitHub Pages).
+- [ ] Colocar descripción dentro del repositorio e incluir URL.
+
+### ENTREGA A TIEMPO
+- [ ] Entregar tu proyecto en el tiempo estipulado. 
 
 ****
 
@@ -109,10 +111,10 @@ A partir de los requisitos, tu % estará definido de esta forma:
 
 | ÁREA       | % DEL TOTAL |
 | ------------- |:-------------:|
-| UI      | 25%     |
+| UI      | 24%     |
 | JAVASCRIPT      | 45%     |
 | CONTROL DE VERSIONES | 10%      |
-| DESPLIEGUE | 5%      |
+| DESPLIEGUE | 6%      |
 | ENTREGA A TIEMPO | 15%      |
 
 ****
