@@ -34,7 +34,7 @@ export default function Heading() {
                         </div>
                     </div>
                 </div>
-                <div class="mt-4 text-center sm:mt-0 sm:pt-1 sm:pb-10">
+                <div class="mx-10 mt-4 text-center sm:mt-0 sm:pt-1 sm:pb-10">
                     <p class="text-sm font-medium text-gray-600">Elige una moneda, la cual se reflejará su comportamiento en <b>Euros</b></p>
                 </div>
 
