@@ -35,7 +35,7 @@ Adicionalmente, harás una conexión a través de un API a una base de datos con
 
 ## 2. Demo
 
-Puedes entrar a ver el demo en este vínculo: https://friendly-snyder-a2fba4.netlify.app
+Puedes entrar a ver el demo en este vínculo: https://cocky-wescoff-e5cf09.netlify.app/
 
 
 ![](./imagenes/demo.png)
