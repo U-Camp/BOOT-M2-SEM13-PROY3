@@ -38,7 +38,7 @@ Adicionalmente, harás una conexión a través de un API a una base de datos con
 Puedes entrar a ver el demo en este vínculo: https://cocky-wescoff-e5cf09.netlify.app/
 
 
-![](./imagenes/demo.png)
+![](./imagenes/ex1.png)
 
 
 - En este ejemplo, observarás una conexión vía API a [fixer.io](https://fixer.io), el cual es un servicio API que ofrece en tiempo real el valor de una moneda con respecto a otras. Por lo tanto, la gráfica es real, establecida al día de hoy.
