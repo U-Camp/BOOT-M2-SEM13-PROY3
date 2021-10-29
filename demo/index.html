@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Dashboard App</title>
+</head>
+<body>
+<div class="h-screen flex overflow-hidden bg-gray-100"> 
+    <div class="hidden bg-black md:flex md:flex-shrink-0">
+      <div class="flex flex-col w-64">
+        <div class="flex flex-col h-0 flex-1">
+          <div class="flex-1 flex flex-col pt-5 pb-4 overflow-y-auto">
+            <div class="flex items-center flex-shrink-0 px-4">
+              <img class="h-10 w-auto" src="./img/logo-ucamp-dark.png" alt="UCamp">
+              <p class="text-white" style="font-size: 16px;margin: 0px 25px;text-align: left;">Proyecto No.3: Tablero de Datos</p>
+            </div>
+            <nav class="mt-5 flex-1 px-4 space-y-1">
+              <a href="#" class="text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md" style="background-color: #ff5aa5 !important;">
+                <!-- Heroicon name: outline/home -->
+                <svg class="mr-3 h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                  </svg>
+                Estadísticas
+              </a>
+            </nav>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col w-0 flex-1 overflow-hidden">
+      <div class="md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3">
+        <button class="-ml-0.5 -mt-0.5 h-12 w-12 inline-flex items-center justify-center rounded-md text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+          <span class="sr-only">Open sidebar</span>
+          <!-- Heroicon name: outline/menu -->
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+      <main class="flex-1 relative z-0 overflow-y-auto focus:outline-none">
+        <div class="relative bg-indigo-800">
+          <div class="absolute inset-0">
+            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZmluYW5jZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+            <div class="absolute inset-0 bg-indigo-800" style="mix-blend-mode: multiply;" aria-hidden="true"></div>
+          </div>
+          <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Euro</h1>
+            <p class="mt-6 text-xl text-indigo-100 max-w-3xl">Base de datos usada: <u><a href="https://www.openbankingeurope.eu/">Open Banking Europe</a></u></p>
+          </div>
+        </div>
+        <div class="py-6">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+            <h1 class="text-2xl font-semibold text-gray-900">Euro</h1>
+          </div>
+          <div>
+            <dl class="mt-5 grid grid-cols-1 bg-white overflow-hidden shadow divide-y divide-gray-200 md:grid-cols-3 md:divide-y-0 md:divide-x mb-10" >
+              <div class="px-4 py-5 sm:p-6">
+                <dt class="text-base font-normal text-gray-900">
+                  MXN
+                </dt>
+                <dd class="mt-1 flex justify-between items-baseline md:block lg:flex">
+                  <div class="flex items-baseline text-2xl font-semibold text-indigo-600">
+                    24.234
+                  </div>
+          
+                  <div class="inline-flex items-baseline px-2.5 py-0.5  text-sm font-medium bg-green-100 text-green-800 md:mt-2 lg:mt-0">
+                    <!-- Heroicon name: solid/arrow-sm-up -->
+                    <svg class="-ml-1 mr-0.5 flex-shrink-0 self-center h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                    
+                    0.3%
+                  </div>
+                </dd>
+              </div>
+          
+              <div class="px-4 py-5 sm:p-6">
+                <dt class="text-base font-normal text-gray-900">
+                  CAD
+                </dt>
+                <dd class="mt-1 flex justify-between items-baseline md:block lg:flex">
+                  <div class="flex items-baseline text-2xl font-semibold text-indigo-600">
+                    1.468
+                  </div>
+          
+                  <div class="inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800 md:mt-2 lg:mt-0">
+                    <!-- Heroicon name: solid/arrow-sm-up -->
+                    <svg class="-ml-1 mr-0.5 flex-shrink-0 self-center h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="sr-only">
+                      Increased by
+                    </span>
+                    2.02%
+                  </div>
+                </dd>
+              </div>
+          
+              <div class="px-4 py-5 sm:p-6">
+                <dt class="text-base font-normal text-gray-900">
+                  CUP
+                </dt>
+                <dd class="mt-1 flex justify-between items-baseline md:block lg:flex">
+                  <div class="flex items-baseline text-2xl font-semibold text-indigo-600">
+                    31.968
+                  </div>
+          
+                  <div class="inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium bg-red-100 text-red-800 md:mt-2 lg:mt-0">
+                    <!-- Heroicon name: solid/arrow-sm-down -->
+                    <svg class="-ml-1 mr-0.5 flex-shrink-0 self-center h-5 w-5 text-red-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M14.707 10.293a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L9 12.586V5a1 1 0 012 0v7.586l2.293-2.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="sr-only">
+                      Decreased by
+                    </span>
+                    4.05%
+                  </div>
+                </dd>
+              </div>
+            </dl>
+          </div>
+          
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+            <div>
+                <!-- <br />
+                <input id="currency-date" type="date" />
+                <button id="btn-date">Ver fecha</button> -->
+              </div>
+              <br />
+                <canvas id="myChart" width="400" height="150"></canvas>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.1.0/dist/chart.min.js"></script>
+  <script src='./js/index.js'></script>
+</body>
+</html>
